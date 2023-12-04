@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-appprototype-dev-10940-authRole",
+      "UnauthRoleArn": "arn:aws:iam::458537291649:role/amplify-appprototype-dev-10940-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::458537291649:role/amplify-appprototype-dev-10940-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-appprototype-dev-10940-deployment",
+      "UnauthRoleName": "amplify-appprototype-dev-10940-unauthRole",
+      "StackName": "amplify-appprototype-dev-10940",
+      "StackId": "arn:aws:cloudformation:eu-central-1:458537291649:stack/amplify-appprototype-dev-10940/41f0aa40-9170-11ee-96bd-0294f69cef93",
+      "AmplifyAppId": "d2r133id9fkedb"
+    },
+    "categories": {
+      "auth": {
+        "appprototype351fd26d": {}
+      },
+      "storage": {
+        "testdevicedatabase": {
+          "tableName": "test_device_database",
+          "region": "eu-central-1",
+          "arn": "arn:aws:dynamodb:eu-central-1:458537291649:table/test_device_database",
+          "partitionKeyName": "device_id",
+          "partitionKeyType": "S"
+        }
+      }
+    }
+  }
+}
