@@ -23,6 +23,9 @@
           "partitionKeyName": "device_id",
           "partitionKeyType": "S"
         }
+      },
+      "api": {
+        "appprototype": {}
       }
     }
   }
