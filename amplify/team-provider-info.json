@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "appprototyped4d4d677": {}
+      },
+      "storage": {
+        "testdevicedatabase": {
+          "tableName": "test_device_database",
+          "region": "eu-central-1",
+          "arn": "arn:aws:dynamodb:eu-central-1:458537291649:table/test_device_database",
+          "partitionKeyName": "device_id",
+          "partitionKeyType": "S"
+        }
       }
     }
   }
