@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "appprototyped4d4d677": {}
+        "appprototyped4d4d677": {},
+        "userPoolGroups": {}
       },
       "storage": {
         "testdevicedatabase": {
@@ -23,6 +24,9 @@
           "partitionKeyName": "device_id",
           "partitionKeyType": "S"
         }
+      },
+      "api": {
+        "appprototype": {}
       }
     }
   }

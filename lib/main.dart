@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'amplifyconfiguration.dart';
+import 'package:amplify_api/amplify_api.dart';
+import 'models/ModelProvider.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,8 +24,10 @@ Future<void> main() async {
 }
 
 Future<void> _configureAmplify() async {
+  final api = AmplifyAPI(modelProvider: ModelProvider.instance);
   await Amplify.addPlugins([
     AmplifyAuthCognito(),
+    api,
   ]);
   await Amplify.configure(amplifyconfig);
 }
